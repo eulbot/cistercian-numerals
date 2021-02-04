@@ -1,20 +1,60 @@
+html,
+body {
+   background-color: #faaca8;
+   background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+   height: 100%;
+}
+
+*:focus {
+   outline: none;
+}
+
+textarea:focus, input:focus{
+   outline: none;
+}
+
+
 #cistercian-numerals {
+   display: flex;
+   flex-direction: column;
 
-  .digit {
-    width: 400px;    
-    height: 600px;
+   .input {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      flex-basis: 20vh;
+      padding-bottom: 6vh;
 
-    svg {
-        width: 100%;
-        height: 100%;
-  
-      polyline, line, path {
-        fill: none; 	
-        stroke: #000;
-        stroke-width: .067;
-        stroke-linecap: round;
-        stroke-linejoin: round;
+      > input {
+         font-family: monospace;
+         font-size: 6vh;
+         width: 18vh;
+         text-align: center;
+         background: none;
+         border: none;
+         border-bottom: 1vh solid #333;
+         font-weight: bold;
+         color: #333;
       }
-    }
-  }
+   }
+
+   .digit {
+      display: flex;
+      height: 60vh;
+      justify-content: center;
+
+      svg {
+         height: 100%;
+
+         polyline,
+         line,
+         path {
+            fill: none;
+            stroke: #333;
+            stroke-width: 0.067;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+         }
+      }
+   }
 }

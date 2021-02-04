@@ -1,15 +1,3 @@
-# 🚀 Welcome to your new awesome project!
+# Cistercian Numerals
 
-This project has been created using **webpack scaffold**, you can now run
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+Simple app that turns a four digit number into the Cistercian numeral system. Read [more](https://en.wikipedia.org/wiki/Cistercian_numerals) here or watch the awesome [Numberphile video](https://www.youtube.com/watch?v=9p55Qgt7Ciw) on this topic. 
